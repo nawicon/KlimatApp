@@ -1,8 +1,8 @@
 import React, { useState, useContext } from "react";
 import { Questions } from "./Questions";
-import { QuizContext } from "./Contexts";
-import logo from "../../assets/Maskot-ljusare.png"
-import bubble2 from "../../assets/quizbubbla-2.png"
+import { QuizContext } from "./Context";
+import logo from "../../images/Maskot-ljusare.png";
+import bubble2 from "../../images/quizbubbla-2.png";
 
 export function Quiz() {
 

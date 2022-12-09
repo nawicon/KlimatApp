@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Start } from "../components/quiz/Start";
 import { Quiz } from "../components/quiz/Quiz";
 import { Results } from "../components/quiz/Results";
-import { QuizContext } from "../components/quiz/Contexts";
+import { QuizContext } from "../components/quiz/Context";
 import ".././components/quiz/Quiz.css"
 
 //Quiz-tutorial från https://www.youtube.com/watch?v=8LNb18ibNGs

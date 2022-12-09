@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import '.././styles.css';
+import '../views/styles.css';
 
 /* Använer React bootstrap Carusel för att skapa ett klickbart bildspel:
 https://react-bootstrap.github.io/components/carousel/ */

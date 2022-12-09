@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import '.././styles.css';
+import '../views/styles.css';
 
 /* Andvänt bReact ootstrap Modal för att skapa en popupruta när "källa" klikas, för
 att presentera källinformation:

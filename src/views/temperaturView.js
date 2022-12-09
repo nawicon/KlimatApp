@@ -1,13 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import '.././styles.css';
+import './styles.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 /* Bilder*/
 import temperatur from '../images/Temperatur.png';
-import maskot from '../images/Maskot.png';
+import maskot from '../images/Maskot-ljusare.png';
 import bredbubbla from '../images/bredbubbla.png';
 import litenpilv from '../images/liten-pil-v.png';
 import litenpilh from '../images/liten-pil-h.png';
