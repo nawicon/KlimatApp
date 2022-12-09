@@ -13,11 +13,21 @@ export const StartView = () => {
   return (
     <div className="frame">
       <header>
-        <h1>LÄR DIG OM KLIMATFÖRÄNDRINGAR</h1>
+        {/* <h1>LÄR DIG OM KLIMATFÖRÄNDRINGAR</h1>
         <p>
           Utforska klimatförändringarnas orsaker och påverkan genom att klicka
           dig vidare bland följande ämnen!
-        </p>
+        </p> */}
+        <h1 className="font-link-h1" style={{ textAlign: 'center' }}>
+        LÄR DIG OM KLIMATFÖRÄNDRINGAR
+              </h1>
+              <p
+                className="font-link-p-ingress"
+                style={{ textAlign: 'center' }}
+              >
+                Utforska klimatförändringarnas orsaker och påverkan genom att klicka
+          dig vidare bland följande ämnen!
+              </p>
       </header>
       <div className="CardParent">
         <StartViewCard image={cardIcon1} category="Glaciär" color="#8BD69E" />

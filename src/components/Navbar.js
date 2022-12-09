@@ -10,7 +10,7 @@ const currentPath = useLocation();
   return (
     
     <>        
-    <div className="container">
+    <div className="navBarcontainer">
       
       <NavButton 
         iconpath={mylogo} 

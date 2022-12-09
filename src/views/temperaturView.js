@@ -24,13 +24,13 @@ export function TemperaturView() {
   return (
     /* Bakgrundsbild */
     <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        paddingBottom: '92px',
-        backgroundImage:
-          'url("https://cdn.pixabay.com/photo/2014/12/04/02/02/wall-556100_960_720.jpg")',
-      }}
+      // style={{
+      //   display: 'flex',
+      //   justifyContent: 'center',
+      //   paddingBottom: '92px',
+      //   backgroundImage:
+      //     'url("https://cdn.pixabay.com/photo/2014/12/04/02/02/wall-556100_960_720.jpg")',
+      // }}
     >
       {/* Container för innehåll */}
       <Container style={{ display: 'flex', justifyContent: 'center' }}>
