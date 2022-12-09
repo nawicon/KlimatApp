@@ -1,0 +1,221 @@
+p {
+    font-size: 16px;;
+}
+
+.quizView {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.quizContainer {
+    width: 630px;
+    height: 680px;
+    justify-content: center;
+}
+
+.quizContainer a {
+    font-weight: bold;
+    color:#2E8336;
+}
+
+.quizContainer a:hover {
+    color: #18531D;
+    text-decoration: none;
+}
+
+.quizContainer a:visited {
+    color:#2E8336;
+}
+
+.speechBubbleContainer {
+    position: relative;
+    text-align: center;
+}
+
+.speechBubbleContent {
+    position: absolute;
+    bottom: 50%;
+    top: 40px;
+    left: 30px;
+    right: 30px;
+}
+
+.speechBubbleContent img {
+    width: 500px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.quizIngress {
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.speechBubbleContent p {
+    font-size: 20px;
+}
+
+
+.quizQuestion {
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+}
+
+.quizAnswerContainer {
+    height: 220px;
+    position: relative;
+}
+
+.quizAnswer {
+    position: absolute;
+    width: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quizOptions {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.quizOptions {
+    position: absolute;
+}
+
+
+.quizLogoContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.quizSmallLogoContainer {
+    position: absolute;
+    bottom: 1px;
+}
+
+.quizSmallLogo {
+    width: 127px;
+    position: absolute;
+    top: 100%;
+    left: 30px;
+}
+
+
+/*Buttons & radio input*/
+
+.quizBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.chooseAnswerBtn {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 500px;
+}
+
+.continueBtn {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 203.5px;
+}
+
+.quizContainer button {
+    border-style: none;
+    border-radius: 4px;
+    width: 159px;
+    height: 53px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #2E8336;
+    color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2)
+}
+
+.quizContainer button:hover {
+    background-color: #18531D;
+}
+
+.quizContainer button:disabled {
+    opacity: 40%;
+}
+
+.quizContainer button:disabled:hover {
+    background-color: #2E8336;
+}
+
+.radio {
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 280px;
+    height: 53px;
+    padding: 13px 0px 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 10px 0 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2)
+}
+
+.radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid lightgrey;
+}
+
+.radio:hover input ~ .checkmark {
+    border: 5px solid #2E8336;
+}
+
+.radio input:checked ~ .checkmark {
+    background-color: white;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.radio .checkmark:after {
+    top: 2px;
+   left: 2px;
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   background: #2E8336;
+}

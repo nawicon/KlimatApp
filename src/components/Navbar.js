@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import './Navbar.css';
 import paths from "../routes/paths";
 import { useLocation } from 'react-router-dom';
@@ -51,7 +52,7 @@ const currentPath = useLocation();
       />
       
     </div>
-    <div className="navbaroffset"></div>
+    
 </>
 
    
