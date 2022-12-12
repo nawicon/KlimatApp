@@ -12,6 +12,7 @@
     color: black;
     font-size: 24pt;
     text-transform: uppercase;
+    text-align: left;
   }
   .font-link-p-ingress {
     font-family: 'inter';
@@ -39,16 +40,19 @@
   /* Quiz-knapp*/
   /* Utseende av quiz-knappen*/
   .quizButton {
-    background-color: #2e8336;
+    border-style: none;
+    border-radius: 4px;
     width: 159px;
     height: 53px;
-    border: none;
-    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #2E8336;
     color: white;
-    font-size: 16pt;
-    box-shadow: 1px 3px 10px black;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2)
   }
   .quizButton:hover {
-    background-color: pink;
+    background-color: #18531D;
   }
   
+
+ 

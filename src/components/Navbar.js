@@ -2,18 +2,18 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './Navbar.css';
 import paths from "../routes/paths";
 import { useLocation } from 'react-router-dom';
-import mylogo from "../images/Maskot-ljusare.png";
+import logo from "../images/Maskot-ljusare.png";
 import { NavButton } from "./NavButton";
 
 export function NavBar() {
 const currentPath = useLocation();
   return (
-    
+   
     <>        
     <div className="navBarcontainer">
       
       <NavButton 
-        iconpath={mylogo} 
+        iconpath={logo} 
         title="Start" 
         path={paths.startViewPath} 
         selected={currentPath.pathname == paths.startViewPath ? true : false}
@@ -52,10 +52,10 @@ const currentPath = useLocation();
       />
       
     </div>
-    
+   
 </>
 
-   
+
   );
 }
 

@@ -4,6 +4,9 @@ import './styles.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Chart } from '../components/chart/Chart';
+import { QuizButton } from "../components/quizButton";
+import paths from "../routes/paths";
 
 /* Bilder*/
 import temperatur from '../images/Temperatur.png';
@@ -249,20 +252,23 @@ export function TemperaturView() {
                 {/* Rad fem, diagrammet */}
                 <Row
                   style={{
-                    paddingLeft: '48px',
-                    paddingRight: '48px',
+                   
+                    paddingLeft: '30px',
+                    paddingRight: '30px',
                     marginTop: '34px',
+                    
                   }}
                 >
                   <Col>
-                    <img
+                  <Chart />
+                    {/* <img
                       src="https://www.digitalasparet.se/hot/c/dia5/media/mm2_fodsl14.gif"
                       style={{
                         width: '798px',
                         border: 'solid 1px black',
                         borderRadius: '30px',
                       }}
-                    />
+                    /> */}
                   </Col>
                 </Row>
                 {/* Rad sex, text om diagrammet */}
@@ -374,12 +380,12 @@ export function TemperaturView() {
                 style={{
                   paddingTop: '57px',
                   paddingBottom: '48px',
-                  marginTop: '70px',
+                  // marginTop: '70px',
                   display: 'flex',
                   justifyContent: 'center',
                 }}
               >
-                <button className="quizButton">Quiz</button>
+                <QuizButton path={paths.quizViewPath}/>
               </Col>
             </Row>
           </div>
